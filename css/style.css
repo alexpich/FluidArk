@@ -22,8 +22,43 @@ body {
 
 .header {
   height: 85vh;
-  background-image: linear-gradient(to right bottom, rgba(255, 60, 148, 0.816), rgba(228, 143, 187, 0.816), rgba(255, 165, 189, 0.336));
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(255, 60, 148, 0.816),
+    rgba(228, 143, 187, 0.816),
+    rgba(255, 165, 189, 0.336)
+  );
   background-size: cover;
   background-position: top;
   clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
+  color: #fff;
+}
+
+.logo-box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.heading-container {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.heading-main {
+  display: block;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.heading-subtext {
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
 }
