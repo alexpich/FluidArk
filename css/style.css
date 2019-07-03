@@ -28,7 +28,7 @@ body {
   background-image: linear-gradient(
     to right bottom,
     rgba(255, 60, 148, 0.816),
-    #e48fbbd0,
+    rgba(228, 143, 187, 0.816),
     rgba(255, 165, 189, 0.337)
   );
   background-size: cover;
