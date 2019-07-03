@@ -70,10 +70,6 @@ body {
   font-weight: 400;
 }
 
-/* #fff: #fff; */
-/* #6772e5: #6772e5; */
-/* #7795f8: #7795f8; */
-
 .container {
   display: flex;
   align-items: center;
@@ -112,8 +108,8 @@ body {
   padding: 0 1.4rem;
   box-shadow: 0 0.4rem 0.6rem rgba(50, 50, 93, 0.11),
     0 0.1rem 0.3rem rgba(0, 0, 0, 0.08);
-  background: #547cff;
-  color: #fff;
+  background: #fff;
+  color: #547cff;
   border-radius: 0.4rem;
   font-size: 1.4rem;
   font-weight: 600;
