@@ -15,10 +15,14 @@ Blue: #547CFF
   box-sizing: border-box;
 }
 
+html {
+  font-size: 10px;
+}
+
 body {
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 1.7;
   color: #576180;
 }
@@ -39,12 +43,12 @@ body {
 
 .logo-box {
   position: absolute;
-  top: 20px;
-  left: 20px;
+  top: 2rem;
+  left: 2rem;
 }
 
 .logo {
-  font-size: 1.5rem;
+  font-size: 2.4rem;
 }
 
 .heading-container {
@@ -56,13 +60,13 @@ body {
 
 .heading-main {
   display: block;
-  font-size: 32px;
+  font-size: 3.2rem;
   font-weight: 400;
 }
 
 .heading-subtext {
   display: block;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 400;
 }
 
@@ -78,16 +82,17 @@ body {
 }
 
 .button-blue {
-  margin: 12px;
-  margin-top: 20px;
-  height: 40px;
-  line-height: 40px;
-  padding: 0 14px;
-  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  margin: 1.2rem;
+  margin-top: 2rem;
+  height: 4rem;
+  line-height: 4rem;
+  padding: 0 1.4rem;
+  box-shadow: 0 0.4rem 0.6rem rgba(50, 50, 93, 0.11),
+    0 0.1rem 0.3rem rgba(0, 0, 0, 0.08);
   background: #547cff;
   color: #fff;
-  border-radius: 4px;
-  font-size: 14px;
+  border-radius: 0.4rem;
+  font-size: 1.4rem;
   font-weight: 600;
   text-transform: uppercase;
   text-decoration: none;
@@ -100,16 +105,17 @@ body {
 }
 
 .button-white {
-  margin: 12px;
-  margin-top: 20px;
-  height: 40px;
-  line-height: 40px;
-  padding: 0 14px;
-  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
-  background: #fff;
-  color: #547cff;
-  border-radius: 4px;
-  font-size: 14px;
+  margin: 1.2rem;
+  margin-top: 2rem;
+  height: 4rem;
+  line-height: 4rem;
+  padding: 0 1.4rem;
+  box-shadow: 0 0.4rem 0.6rem rgba(50, 50, 93, 0.11),
+    0 0.1rem 0.3rem rgba(0, 0, 0, 0.08);
+  background: #547cff;
+  color: #fff;
+  border-radius: 0.4rem;
+  font-size: 1.4rem;
   font-weight: 600;
   text-transform: uppercase;
   text-decoration: none;
@@ -128,18 +134,20 @@ body {
 }
 
 .button-blue:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  transform: translateY(-0.2rem);
+  box-shadow: 0 0.7rem 1.4rem rgba(50, 50, 93, 0.1),
+    0 3px 6px rgba(0, 0, 0, 0.08);
 }
 
 .button-white:hover {
   color: #7795f8;
-  transform: translateY(-2px);
-  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  transform: translateY(-0.2rem);
+  box-shadow: 0 0.7rem 1.4rem rgba(50, 50, 93, 0.1),
+    0 3px 6px rgba(0, 0, 0, 0.08);
 }
 
 #section-one {
   display: block;
-  margin-top: 50px;
-  margin-left: 25px;
+  margin-top: 5rem;
+  margin-left: 2.5rem;
 }
