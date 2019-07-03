@@ -9,10 +9,12 @@ Dark Grey blue: #576180;
 Blue: #547CFF 
 */
 
-* {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 
 html {
@@ -26,6 +28,7 @@ body {
   font-size: 1.6rem;
   line-height: 1.7;
   color: #576180;
+  box-sizing: border-box;
 }
 
 .header {
