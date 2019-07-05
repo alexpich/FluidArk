@@ -35,9 +35,9 @@ body {
   height: 85vh;
   background-image: linear-gradient(
     to right bottom,
-    rgba(255, 60, 148, 0.816),
+     rgba(255, 60, 148, 0.816),
     rgba(228, 143, 187, 0.816),
-    rgba(255, 165, 189, 0.337)
+    rgba(255, 165, 189, 0.337) 
   );
   background-size: cover;
   background-position: top;
@@ -89,7 +89,7 @@ body {
   padding: 0 1.4rem;
   box-shadow: 0 0.4rem 0.6rem rgba(50, 50, 93, 0.11),
     0 0.1rem 0.3rem rgba(0, 0, 0, 0.08);
-  background: #547cff;
+  background: #559aff;
   color: #fff;
   border-radius: 0.4rem;
   font-size: 1.4rem;
@@ -113,7 +113,7 @@ body {
   box-shadow: 0 0.4rem 0.6rem rgba(50, 50, 93, 0.11),
     0 0.1rem 0.3rem rgba(0, 0, 0, 0.08);
   background: #fff;
-  color: #547cff;
+  color: #559aff;
   border-radius: 0.4rem;
   font-size: 1.4rem;
   font-weight: 600;
