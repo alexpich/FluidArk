@@ -2,7 +2,7 @@ $color-red: #ff3c94d0;
 $color-medpink: #e48fbbd0;
 $color-lightpink: #ffa5bd56;
 $color-dark-greyblue: #576180;
-$color-blue: #547cff;
+$color-blue: #559aff;
 
 *,
 *::after,
@@ -22,7 +22,7 @@ body {
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.7;
-  color: #576180;
+  color: $color-dark-greyblue;
   box-sizing: border-box;
 }
 
@@ -84,7 +84,7 @@ body {
   padding: 0 1.4rem;
   box-shadow: 0 0.4rem 0.6rem rgba(50, 50, 93, 0.11),
     0 0.1rem 0.3rem rgba(0, 0, 0, 0.08);
-  background: #559aff;
+  background: $color-blue;
   color: #fff;
   border-radius: 0.4rem;
   font-size: 1.4rem;
@@ -108,7 +108,7 @@ body {
   box-shadow: 0 0.4rem 0.6rem rgba(50, 50, 93, 0.11),
     0 0.1rem 0.3rem rgba(0, 0, 0, 0.08);
   background: #fff;
-  color: #559aff;
+  color: $color-blue;
   border-radius: 0.4rem;
   font-size: 1.4rem;
   font-weight: 600;
@@ -135,7 +135,6 @@ body {
 }
 
 .button-white:hover {
-  color: #7795f8;
   transform: translateY(-0.2rem);
   box-shadow: 0 0.7rem 1.4rem rgba(50, 50, 93, 0.1),
     0 3px 6px rgba(0, 0, 0, 0.08);
