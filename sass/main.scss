@@ -3,6 +3,7 @@ $color-medpink: #e48fbbd0;
 $color-lightpink: #ffa5bd56;
 $color-dark-greyblue: #576180;
 $color-blue: #559aff;
+$color-lightblue: #55bbff;
 
 *,
 *::after,
@@ -135,6 +136,7 @@ body {
 }
 
 .button-white:hover {
+  color: $color-lightblue;
   transform: translateY(-0.2rem);
   box-shadow: 0 0.7rem 1.4rem rgba(50, 50, 93, 0.1),
     0 3px 6px rgba(0, 0, 0, 0.08);
