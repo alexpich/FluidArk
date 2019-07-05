@@ -1,13 +1,8 @@
-/* 
-COLORS:
-
-Red: #ff3c94d0;
-Med pink: #ff76bdd0;
-Med pink2: #e48fbbd0;
-Light pink: #ffa5bd56;
-Dark Grey blue: #576180;
-Blue: #547CFF 
-*/
+$color-red: #ff3c94d0;
+$color-medpink: #e48fbbd0;
+$color-lightpink: #ffa5bd56;
+$color-dark-greyblue: #576180;
+$color-blue: #547cff;
 
 *,
 *::after,
@@ -35,9 +30,9 @@ body {
   height: 85vh;
   background-image: linear-gradient(
     to right bottom,
-     rgba(255, 60, 148, 0.816),
-    rgba(228, 143, 187, 0.816),
-    rgba(255, 165, 189, 0.337) 
+    rgba($color-red, 0.816),
+    rgba($color-medpink, 0.816),
+    rgba($color-lightpink, 0.337)
   );
   background-size: cover;
   background-position: top;

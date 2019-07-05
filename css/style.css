@@ -1,0 +1,117 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  /* 16px/10px=62.5% */
+  font-size: 62.5%; }
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: #576180;
+  box-sizing: border-box; }
+
+.header {
+  height: 85vh;
+  background-image: linear-gradient(to right bottom, rgba(255, 60, 148, 0.816), rgba(228, 143, 187, 0.816), rgba(255, 165, 189, 0.337));
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
+  color: #fff; }
+
+.logo-box {
+  position: absolute;
+  top: 2rem;
+  left: 2rem; }
+
+.logo {
+  font-size: 2.4rem; }
+
+.heading-container {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.heading-main {
+  display: block;
+  font-size: 3.2rem;
+  font-weight: 400; }
+
+.heading-subtext {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 400; }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; }
+
+.button-blue {
+  margin: 1.2rem;
+  margin-top: 2rem;
+  height: 4rem;
+  line-height: 4rem;
+  padding: 0 1.4rem;
+  box-shadow: 0 0.4rem 0.6rem rgba(50, 50, 93, 0.11), 0 0.1rem 0.3rem rgba(0, 0, 0, 0.08);
+  background: #559aff;
+  color: #fff;
+  border-radius: 0.4rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.025em;
+  transition: all 0.15s ease;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+.button-white {
+  margin: 1.2rem;
+  margin-top: 2rem;
+  height: 4rem;
+  line-height: 4rem;
+  padding: 0 1.4rem;
+  box-shadow: 0 0.4rem 0.6rem rgba(50, 50, 93, 0.11), 0 0.1rem 0.3rem rgba(0, 0, 0, 0.08);
+  background: #fff;
+  color: #559aff;
+  border-radius: 0.4rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.025em;
+  transition: all 0.15s ease;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+.button:link,
+.button:visited {
+  text-transform: uppercase;
+  text-decoration: none; }
+
+.button-blue:hover {
+  transform: translateY(-0.2rem);
+  box-shadow: 0 0.7rem 1.4rem rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08); }
+
+.button-white:hover {
+  color: #7795f8;
+  transform: translateY(-0.2rem);
+  box-shadow: 0 0.7rem 1.4rem rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08); }
+
+#section-one {
+  display: block;
+  margin-top: 5rem;
+  margin-left: 2.5rem; }
