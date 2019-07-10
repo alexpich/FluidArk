@@ -3,11 +3,11 @@
   padding: 10rem 0;
   font-size: 1.3rem;
   color: $color-dark-greyblue;
-  border-top: #b3bec7 solid 1px;
+  border-top: rgba(218, 225, 230, 0.582) solid 1px;
 
   &-item {
     display: inline-block;
-
+W
     &:not(:last-child) {
       margin-right: 1.5rem;
     }

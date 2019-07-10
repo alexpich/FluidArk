@@ -2,8 +2,6 @@
 @import "layout/grid";
 @import "layout/footer";
 
-
-
 *,
 *::after,
 *::before {
@@ -24,6 +22,10 @@ body {
   line-height: 1.7;
   color: $color-dark-greyblue;
   box-sizing: border-box;
+}
+
+.center {
+  text-align: center;
 }
 
 .header {
@@ -147,7 +149,11 @@ body {
   margin-left: 2.5rem;
 }
 
-.box {
+.card-section {
+  padding: 12rem 0;
+}
+
+.card {
   background-color: rgba(#fff, 0.8);
   font-size: 1.5rem;
   padding: 2.5rem;

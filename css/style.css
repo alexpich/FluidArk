@@ -29,10 +29,11 @@
   padding: 10rem 0;
   font-size: 1.3rem;
   color: #576180;
-  border-top: #b3bec7 solid 1px; }
+  border-top: rgba(218, 225, 230, 0.582) solid 1px; }
   .footer-item {
     display: inline-block; }
-    .footer-item:not(:last-child) {
+    W
+.footer-item:not(:last-child) {
       margin-right: 1.5rem; }
   .footer-link:link, .footer-link:visited {
     color: #000;
@@ -59,6 +60,9 @@ body {
   line-height: 1.7;
   color: #576180;
   box-sizing: border-box; }
+
+.center {
+  text-align: center; }
 
 .header {
   height: 85vh;
@@ -159,7 +163,10 @@ body {
   margin-top: 5rem;
   margin-left: 2.5rem; }
 
-.box {
+.card-section {
+  padding: 12rem 0; }
+
+.card {
   background-color: rgba(255, 255, 255, 0.8);
   font-size: 1.5rem;
   padding: 2.5rem;
@@ -167,5 +174,5 @@ body {
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   transition: transform 0.3s; }
-  .box:hover {
+  .card:hover {
     transform: translateY(-1.5rem) scale(1.03); }
