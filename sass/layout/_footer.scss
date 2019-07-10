@@ -1,0 +1,26 @@
+.footer {
+  background-color: $color-lightgrey;
+  padding: 10rem 0;
+  font-size: 1.3rem;
+  color: $color-dark-greyblue;
+  border-top: #b3bec7 solid 1px;
+
+  &-item {
+    display: inline-block;
+
+    &:not(:last-child) {
+      margin-right: 1.5rem;
+    }
+  }
+
+  &-link {
+    &:link,
+    &:visited {
+      color: #000;
+      text-decoration: none;
+      text-transform: uppercase;
+      display: inline-block;
+      transition: all 0.2s;
+    }
+  }
+}

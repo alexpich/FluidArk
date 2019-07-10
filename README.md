@@ -1,5 +1,5 @@
 # FluidArk
-Fluid Ark is a project example of clean ux and ui.
+Fluid Ark is an experimental project focusing on ui/ux.
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.

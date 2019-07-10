@@ -1,7 +1,7 @@
 {
   "name": "fluidark",
   "version": "1.0.0",
-  "description": "Fluid Ark is a project example of clean ux and ui.",
+  "description": "Fluid Ark is an experimental project focusing on ui/ux.",
   "main": "index.js",
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
