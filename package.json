@@ -4,19 +4,24 @@
   "description": "Fluid Ark is an experimental project focusing on ui/ux.",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "prefix": "postcss css/style.css -u autoprefixer -d css/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexpich/ux-ui.git"
+    "url": "git+https://github.com/alexpich/fluidark.git"
   },
   "author": "Alex Pich",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alexpich/ux-ui/issues"
+    "url": "https://github.com/alexpich/fluidark/issues"
   },
   "homepage": "https://github.com/alexpich/ux-ui#readme",
-  "dependencies": {},
+  "dependencies": {
+    "autoprefixer": "^9.6.1",
+    "material-design-icons": "^3.0.1",
+    "postcss-cli": "^6.1.3"
+  },
   "devDependencies": {
     "node-sass": "^4.12.0"
   }

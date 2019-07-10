@@ -176,3 +176,12 @@ body {
   transition: transform 0.3s; }
   .card:hover {
     transform: translateY(-1.5rem) scale(1.03); }
+
+.pre-footer {
+  position: relative;
+  height: 85vh;
+  background-color: #f3f7fa;
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 25vh, 100% 0, 100% 100%, 0% 100%);
+  color: #000; }
