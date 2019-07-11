@@ -28,6 +28,10 @@ body {
   text-align: center;
 }
 
+.vertical-spacing {
+  margin: 3rem 0;
+}
+
 .header {
   height: 85vh;
   background-image: linear-gradient(
@@ -167,6 +171,13 @@ body {
   }
 }
 
+.box {
+  border-top: rgba(218, 225, 230, 0.582) solid 1px;
+  padding-top: 10rem;
+}
+.box-item-one {
+  border-right: rgba(218, 225, 230, 0.582) solid 1px;
+}
 .pre-footer {
   position: relative;
   height: 85vh;
@@ -175,4 +186,11 @@ body {
   background-position: top;
   clip-path: polygon(0 25vh, 100% 0, 100% 100%, 0% 100%);
   color: #000;
+}
+
+.section-container {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

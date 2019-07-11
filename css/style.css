@@ -64,6 +64,9 @@ body {
 .center {
   text-align: center; }
 
+.vertical-spacing {
+  margin: 3rem 0; }
+
 .header {
   height: 85vh;
   background-image: linear-gradient(to right bottom, rgba(255, 60, 148, 0.816), rgba(228, 143, 187, 0.816), rgba(255, 165, 189, 0.337));
@@ -177,6 +180,13 @@ body {
   .card:hover {
     transform: translateY(-1.5rem) scale(1.03); }
 
+.box {
+  border-top: rgba(218, 225, 230, 0.582) solid 1px;
+  padding-top: 10rem; }
+
+.box-item-one {
+  border-right: rgba(218, 225, 230, 0.582) solid 1px; }
+
 .pre-footer {
   position: relative;
   height: 85vh;
@@ -185,3 +195,9 @@ body {
   background-position: top;
   clip-path: polygon(0 25vh, 100% 0, 100% 100%, 0% 100%);
   color: #000; }
+
+.section-container {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
